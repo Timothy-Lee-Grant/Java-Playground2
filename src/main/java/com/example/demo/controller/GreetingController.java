@@ -12,6 +12,7 @@ public class GreetingController {
 
     private final GreetingService greetingService;
 
+
     public GreetingController(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
@@ -24,5 +25,10 @@ public class GreetingController {
         model.addAttribute("name", message);
         System.out.println("Returning view: greeting");
         return "greeting"; // maps to greeting.html
+    }
+
+    @GetMapping("/secondary")
+    public String secondary(){
+        return "greeting2";
     }
 }
