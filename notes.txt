@@ -1,0 +1,12 @@
+Topics Need to Study
+
+-microservice via rest or Kafka
+-Kafka (or RabbitMQ)
+-OpenFeign
+-Spring Cloud Config
+-Service Discovery (e.g., Eureka)
+-Circuit Breaker (e.g., Resilience4j)
+-
+
+we might want to use both because copilot says:
+You can absolutely design microservices using REST and/or Kafka. Some systems even use both — REST for direct calls and Kafka for async workflows.
