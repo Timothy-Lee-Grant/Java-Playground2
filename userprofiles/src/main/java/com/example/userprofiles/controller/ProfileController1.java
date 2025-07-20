@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/profiles")
-public class ProfileController {
+public class ProfileController1 {
     @GetMapping("/{username}")
     public ResponseEntity<String> getProfile(@PathVariable String username) {
         System.out.println("you are here");
